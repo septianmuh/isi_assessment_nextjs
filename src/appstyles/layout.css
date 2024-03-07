@@ -1,0 +1,16 @@
+.sidebar-collapse {
+    width: 70px;
+}
+
+.sidebar-expands {
+    width: 20rem!important;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

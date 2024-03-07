@@ -1,0 +1,5 @@
+.divider {
+    background: rgb(8,44,100);
+    background: radial-gradient(circle, rgba(8,44,100,1) 0%, rgba(8,55,100,1) 43%, rgba(0,112,255,1) 100%);
+    box-shadow: inset 0 0 100px hsla(0,0%,0%,.3);
+}
