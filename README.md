@@ -2,7 +2,12 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-First, run the docker-compose.yml:
+First, run the docker-compose.yml, to install db postgresql:
+    docker-compose up 
 
-    
+Second, run migration, seeder and apps :
+    npm run migrate
+    npm run seed
+    npm start
+
 

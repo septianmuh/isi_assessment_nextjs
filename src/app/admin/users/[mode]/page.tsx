@@ -80,7 +80,7 @@ function Client(): React.ReactElement {
                         <div className='basis-1/2 mr-2'>
                             <Dropdown 
                                 apiUrl='/api/roles'
-                                label='Kategori Produk'
+                                label='Role User'
                                 onSelect={(selectedValue) => action.handleOnChange('role_id', selectedValue)}
                                 key={'drp'}
                                 selectedOption={{

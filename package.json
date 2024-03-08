@@ -1,12 +1,14 @@
 {
-  "name": "company-profile",
+  "name": "assessment-isi",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev --port 3092",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start --port 3092",
+    "lint": "next lint",
+    "migrate": "npx sequelize-cli db:migrate",
+    "seed": "npx sequelize-cli db:seed:all"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
